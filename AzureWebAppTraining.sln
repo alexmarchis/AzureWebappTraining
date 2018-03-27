@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureWebAppTraining", "AzureWebAppTraining\AzureWebAppTraining.csproj", "{59851B80-6380-4519-B6BB-A669AEBB3238}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureWebAppTraining", "AzureWebAppTraining\AzureWebAppTraining.csproj", "{59851B80-6380-4519-B6BB-A669AEBB3238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJob", "WebJob\WebJob.csproj", "{224002D7-94B1-42C0-884A-0177FFDEFA7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduledWebJob", "ScheduledWebJob\ScheduledWebJob.csproj", "{0A3124F5-DECB-4C69-B011-9B6531651483}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{59851B80-6380-4519-B6BB-A669AEBB3238}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59851B80-6380-4519-B6BB-A669AEBB3238}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59851B80-6380-4519-B6BB-A669AEBB3238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224002D7-94B1-42C0-884A-0177FFDEFA7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224002D7-94B1-42C0-884A-0177FFDEFA7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224002D7-94B1-42C0-884A-0177FFDEFA7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224002D7-94B1-42C0-884A-0177FFDEFA7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A3124F5-DECB-4C69-B011-9B6531651483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3124F5-DECB-4C69-B011-9B6531651483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3124F5-DECB-4C69-B011-9B6531651483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3124F5-DECB-4C69-B011-9B6531651483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
